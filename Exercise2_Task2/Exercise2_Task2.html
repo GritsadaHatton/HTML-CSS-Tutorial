@@ -5,12 +5,19 @@
 <html>
 <body>
 
-<form>
-  <label for="fname">First Name</label>
-  <input type="text" id="fname" name="fname">
-  <label for="lname">Last Name</label>
-  <input type="text" id="lname" name="lname">
-</form>
+  <div>
+    <form action="/action_page.php">
+      <input type="text" id="fname" name="firstname" placeholder="Username">
+  
+      <input type="text" id="lname" name="lastname" placeholder="Password">
+    
+      <input type="login" value="LOGIN">
+
+      <p> 
+        Not registered? <input type="create" value= "Create an account here!">
+      </p>
+    </form>
+  </div>
 
 
 

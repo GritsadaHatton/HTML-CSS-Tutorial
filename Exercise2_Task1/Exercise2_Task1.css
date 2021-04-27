@@ -1,7 +1,11 @@
 
-body {background-color: royalblue;}
+body 
+  {
+    background-color: royalblue;
+  }
 
-h1 {
+h1 
+  {
     color: maroon;
     text-align: center;
     font-size: 500%;
@@ -9,16 +13,16 @@ h1 {
     background-color: lightcoral;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-right: 0px;
+    margin-left: 0px;
     padding-top: 25px;
     padding-right: 100px;
     padding-bottom: 25px;
     padding-left: 100px;
+  }
 
-   }
-
-h2 {
+h2 
+  {
     color: black;
     text-align: left;
     font-size: 200%;
@@ -26,8 +30,10 @@ h2 {
     padding-right: 250px;
     padding-bottom: 0px;
     padding-left: 250px;
-   }
-p {
+  }
+
+p 
+  {
     color: lightskyblue;
     text-align: left;
     font-size: 100%;
@@ -38,22 +44,21 @@ p {
     
   }
 
-  a:link, a:visited 
+  .button
   {
+    width: fit-content;
     background-color: maroon;
-    color: white;
+    text-decoration: aliceblue;
     padding: 10px 25px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin-left: 600px;
+    object-position: center;
   }
 
-
-footer {
+footer 
+  {
     background-color: slategray;
     border-style: hidden;
-    margin-top: 15px;
+    margin-top: 200px;
     margin-bottom: 5px;
     margin-right: 0px;
     margin-left: 0px;
@@ -64,3 +69,12 @@ footer {
     padding-bottom: 20px;
     padding-left: 0px;
   }
+  
+@media screen and (max-width: 800px) 
+{
+  .footer, .button, .header
+  {   
+    width: 100%;
+    padding: 10;
+  }
+}
